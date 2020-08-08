@@ -1,0 +1,12 @@
+fala galeraaaa, gratidão universoooo!!!!!!!!!
+hoje é domingo, após a segunda noite do meu bot que dessa vez cagou e não rodou a noite inteira,
+às 5 e pouco da manhã eu tava tomando banho e refletindo sobre esse resultado
+e pensei numa funcionalidade nova para o meu BOT: scanUnexpectedPages(), ela vai em waitEndMatch()
+e ela vem pra trazer mais um apoio naquela parte de algum detalhe muito pequeno pode
+estar passando despercebido e essa função lida com ele e volta as coisas pra ordem natural.
+Com essa função meu código fica mais parrudo também, é uma boa funcionalidade que codarei
+na sexta feira 5 de junho! ;) ;) ;)
+
+* eu pensei também em mudar o paradigma do bot para aquele usado em compiladores, com estados. É
+uma boa questão pois o código lembra mesmo essa idéia, mas não vou fazer pois o código
+fica mais amarradinho assim com as funções esperando os retornos das chamadas feitas.

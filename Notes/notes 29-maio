@@ -1,0 +1,81 @@
+Faaaaaala meu Brasillll!! =DDD
+
+Hoje eu consertei tudo que deixei anotado na notes anterior e:
+Meu robozinho ta jogando muitoooo!!
+Ele rodou 30 partidas seguidas e ganhou 18, desempenho de 60%,
+muito absurdo!! Na 31ª ele deixou expirar...
+
+Agora eu pensei em duas coisas muito incríveis:
+vou fazer duas lógicas: uma para o meu robô rodar caso ele erre ao jogar
+alguma carta, prevenindo ele de parar de jogar após a quarta carta, 
+deixando expirar; e a outra é para ele perceber caso o jogo tenha 
+expirado, e mesmo após a expiração ele inicia outra partida e segue
+o baile.
+
+As duas vão em waitEndGame(), basta eu inserir inBattleHasTimeout 
+dentro de inEndGame(). A outra será: playCardsWith0PillzUntilMatchIsOver()
+
+waitEndMatch():
+  print('Waiting end game!')
+  while(not inEndGame):
+    print('Not in end game!')
+    if myTurn():
+      print('In myTurn')
+      playCardsAllCardsWith0Pillz()
+    elif(inBattleHasTimeout):
+      print('Battle has timeout!)
+      clickBattleHasTimeout()
+
+-- # --
+Horas depois:
+-- # --
+
+hahahahahhaaa
+refiz a def waitEndMatch() de maneira épicaaa, eu fiz as lógicas citadas acima e
+também pensei na lógica mais fenomenal do dia, waitMyTurnFourTimes(), nooooooossa
+pensa que fodá uhuuuuu! Ta destruidor demais, to cobrindo vários extends... 
+hoje vou testar deixar a noite inteira rodando, vamos ver no que vai dar hahaha,
+imagino que não vá conseguir, vai ter algum probleminha, mas é assim que o código
+vai crescendo e ficando cada vez mais parrudo! 8) 
+
+-- # --
+Uma noite depois: 
+-- # --
+
+Booommmmm diiiiaa universo lindooo x). Hoje já é 30/05/2020, agora são 05:57 e eu
+meio que bati o meu recorde novamente de sentar mais cedo no pc kkk, mas eu preci-
+sava vir aqui pois esse é um momento especial!!! Meu Little Robot maravilindo 
+jogou a noite inteiraaa!!! Terminou a missão dos Paradox -> 1M e tudo =0, cara que 
+isso, que absurdo velho, meu bot reinou destruiu demais, sinceramente eu não espe-
+rava um resultado tão expressivo assim tão cedo com esse projeto, isso só me enche
+de orgulho e gratidão e vontade de seguir em frente nesse projeto e tocando o 
+baile =D =D =D =D =D. Se liga em alguns números do seu primeiro dia:
+ - Jogou 5 DTs
+  - 2 top 25 -> 2 * (100 crypto + 1 credito)
+  - 3 top 50 -> 3 * (40 crypto + 1 credito)
+  - 65k de prêmios pelas posições
+ - Completou a missão 1500 danos com Paradox -> 1M
+ - Upou o nível 37 quase inteiro, o que da 2-4K xp
+ - Upou metade do nível 38, o que são 2252 xp
+ - 305 combates com 77 vitórias
+  - desempenho baixissimo de 25,24% de vitórias
+  - isso é pq jogou T2 onde a taxa de 2hko é enorme, e a minha estratégia não
+    foi feita pra jogar nesse ambiente, com rescue em T1 
+    faria 60% eu acredito (e fez! só que em 30 jogos, se manteria ou não...)
+ - No rank do Brasil do dia estou em 18º com 5371 Battle Points
+ - +- 5 expirações a cada 120 partidas, o que dá 1 a cada 24
+   ou seja, 4 ou 5 % de expirações -> 95 ou 96% de fair-play
+ - Fiz uma média aqui e deu 16,5 clintz por derrota (não contando os timeouts)
+ - Média de 37,14 clintz por vitória
+ - 6,7k acumulados nas partidas
+ - +13,3k acumulados não sei de onde, missões?
+ - Acumulei 1500 cryptocoinz que eu não sei de onde vem
+  - deve ser as premiações das missões, o que não dá para eu ver
+ - 18 creditos
+ - Terminei 2 missões de ld hehehe
+ - Missões gerais do game (pillz, vida, danos...)
+ - Missão de 60 combates com Paradox
+
+$ Hoje eu comprei uma Phaendre por 40k e vendi à kate por 400 crypto uhauhuah,
+posso fazer 400 crypto valer 350K. Vou repetir isso na conta legioblur, quem
+sabe isso signifique +600K no meu bolso em -20min 8).
