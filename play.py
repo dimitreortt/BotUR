@@ -124,3 +124,6 @@ def playForever():
 def play():
   setUpGameMode()
   playForever()
+
+if __name__ == "__main__":
+  play()
