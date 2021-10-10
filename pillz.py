@@ -23,7 +23,7 @@ def randBool():
   return random.choice([True, False])
 
 def TypePillzSet(type):
-  return random.choice(PossiblePilling.possibles)
+  #return random.choice(PossiblePilling.possibles)
   if type == 'Type1':
     r1 = randint(2, 4)
     r2 = randint(1, 6 - r1)
