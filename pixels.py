@@ -12,15 +12,16 @@ class ButtonPixels():
 
 class ColorSums():
     # GameModes = 41435
-    GameModes = 38565  # 38373 #38767
-    Fight = 3640  # 28708
+    GameModes = (40339, -1)  # 38373 #38767
+    Fight = 25674  # 3640  # 28708
     MyBackground = 10718
-    MyDashBoard = (29925, 29128, 28052, 32482, 32482)
-    EndMatch = (3577, 3820, 5409)
-    PlayAgain = (25168, 25033, 6016)
+    MyDashBoard = (11407, 8384)
+    MyDashBoardNotShining = (4702, 5523)
+    EndMatch = (3683, -1)
+    PlayAgain = (30680, 25168, 25033, 6016)
     TheBattleHasTimeout = 31684
-    CardInfo = (2121, -1)
-    StuckMatchMaking = (39924, -1)
+    CardInfo = (1628, -1)
+    StuckMatchMaking = (20497, -1)
 
 # Deve receber a box em coordenadas globais!
 

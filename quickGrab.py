@@ -18,11 +18,11 @@ import time
 meia_tela = False
 # Globals
 if(meia_tela):
-    x_pad = 20
-    y_pad = 129
+    x_pad = 0
+    y_pad = 0
 else:
-    x_pad = 163
-    y_pad = 107
+    x_pad = 0
+    y_pad = 0
 
 
 def screenGrab():
@@ -30,6 +30,12 @@ def screenGrab():
     im = ImageGrab.grab(box)
     im.save(os.getcwd() + '\\snapshots\\' +
             str(int(time.time())) + '.png', 'PNG')
+
+
+def grabEntireScreen():
+    box = ()
+    im = ImageGrab.grab(box)
+    return im
 
 
 def grabPlayArea(save=False):
