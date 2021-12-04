@@ -32,21 +32,6 @@ def saveCroppedTestImg(imageName, im):
     pass
 
 
-# def fakeGetColorSum(box, imageName, save=True):
-#     path = os.getcwd() + '\\snapshots\\TestImages\\' + imageName + '.png'
-#     im = Image.open(path)
-#     im = im.crop(box)
-#     if save:
-#         saveCroppedTestImg(imageName, im)
-#     im = ImageOps.grayscale(im)
-#     colorSums = im.getcolors()
-#     colorSums = toArray(colorSums)
-#     # print(colorSums.lst[100:200])
-#     # colorSums.lst = colorSums.lst[100:200]
-#     # print(colorSums.lst.__len__())
-#     totalSum = colorSums.sum()
-#     return totalSum
-
 def fakeGetColorSum(box, imageName, save=True):
     path = os.getcwd() + '\\snapshots\\TestImages\\' + imageName + '.png'
     im = Image.open(path)
