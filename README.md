@@ -14,6 +14,6 @@ The bot had several interesting results, and a few amazing feats.
 
 This bot has played for about 1 month in 2020 and has since been deactivated!
 
-After some time I visited the game again and found out about a Wheel Of Fortune where players also can spin to win rewards, so I created another script to play the wheel too. It played for a week in 2021 and has since been deactived.
+After some time I visited the game again and found out about a Wheel Of Fortune where players also can spin to win rewards, so I created another script to play the wheel too. It played for a week in 2021 and has since been deactivated.
 
 The main packages necessary for this bot were PIL (ImageGrab and ImageOps) and pyautogui.
